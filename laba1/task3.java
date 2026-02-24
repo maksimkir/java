@@ -5,11 +5,11 @@ public class task3 {
 
         switch (remainder) {
             case 0:
-                System.out.println(number + " - Парне число");
+                System.out.println(number + " - perche shislo");
                 break;
             case 1:
             case -1: // Для від'ємних непарних чисел
-                System.out.println(number + " - Непарне число");
+                System.out.println(number + " - neperche shislo");
                 break;
         }
     }

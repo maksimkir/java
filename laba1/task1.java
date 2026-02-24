@@ -3,6 +3,6 @@ public class task1 {
         byte myByte = 10;
         myByte = (byte) (myByte + 5); 
         
-        System.out.println("Результат додавання: " + myByte);
+        System.out.println("rezultat dodavania: " + myByte);
     }
 }
