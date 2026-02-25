@@ -8,7 +8,7 @@ public class task3 {
                 System.out.println(number + " - perche shislo");
                 break;
             case 1:
-            case -1: // Для від'ємних непарних чисел
+            case -1: 
                 System.out.println(number + " - neperche shislo");
                 break;
         }
