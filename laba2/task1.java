@@ -2,7 +2,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Task1 {
+public class task1 {
     public static void main(String[] args) {
         String validDate = "2024-05-20";
         String invalidDate = "неправильна-дата";
