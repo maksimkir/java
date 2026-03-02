@@ -5,12 +5,12 @@ import java.util.Date;
 public class task1 {
     public static void main(String[] args) {
         String validDate = "2024-05-20";
-        String invalidDate = "неправильна-дата";
+        String invalidDate = "nepravilna data";
 
-        System.out.println("Спроба 1 (коректна):");
+        System.out.println("sproba 1 (korrektna):");
         convertToDate(validDate);
 
-        System.out.println("\nСпроба 2 (некоректна):");
+        System.out.println("\nsproba 2 (nekorrektna):");
         convertToDate(invalidDate);
     }
 
@@ -21,10 +21,10 @@ public class task1 {
 
         try {
             Date date = formatter.parse(dateStr);
-            System.out.println("Успішно конвертовано: " + date);
+            System.out.println("uspishno konvertovano: " + date);
         } catch (ParseException e) {
-            System.err.println("Помилка: Рядок '" + dateStr + "' має недійсний формат дати.");
-            System.err.println("Деталі виключення: " + e.getMessage());
+            System.err.println("Pomilka: Ryadok '" + dateStr + "' maye nediyisnyy format daty.");
+            System.err.println("Detali vyklyuchennya: " + e.getMessage());
         }
     }
 }

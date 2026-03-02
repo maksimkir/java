@@ -8,7 +8,7 @@ public class task2 {
     // Метод для додавання замовлення
     public void addOrder(String orderName) {
         orders.add(orderName);
-        System.out.println("Замовлення додано: " + orderName);
+        System.out.println("zamovlenia dodano: " + orderName);
     }
 
     // Метод для обробки (видалення) першого замовлення
@@ -16,18 +16,18 @@ public class task2 {
         try {
             // remove() повертає голову черги або кидає NoSuchElementException, якщо порожньо
             String removedOrder = orders.remove();
-            System.out.println("Оброблено замовлення: " + removedOrder);
+            System.out.println("obrobлено zamovlennya: " + removedOrder);
         } catch (NoSuchElementException e) {
-            System.err.println("Помилка: Неможливо обробити замовлення. Черга порожня!");
+            System.err.println("Pomilka: Nemozhlyvo obrobiti zamovlennya. Cherha porozhnya!");
         }
     }
 
     public static void main(String[] args) {
         task2 manager = new task2();
 
-        // 1. Додаємо замовлення
-        manager.addOrder("Замовлення #1 (Піца)");
-        manager.addOrder("Замовлення #2 (Суші)");
+        // 1. Dodaemo zamovlennya
+        manager.addOrder("zamovlennya #1 (Pitsa)");
+        manager.addOrder("zamovlennya #2 (Sushi)");
 
         // 2. Обробляємо замовлення
         manager.processOrder(); // Обробить #1
