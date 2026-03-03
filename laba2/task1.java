@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class task1 {
     public static void main(String[] args) {
-        String validDate = "2024-05-20";
+        String validDate = "2026-02-01";
         String invalidDate = "nepravilna data";
 
         System.out.println("sproba 1 (korrektna):");
@@ -16,7 +16,7 @@ public class task1 {
 
     public static void convertToDate(String dateStr) {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-        // Встановлюємо суворий режим перевірки
+        //суворий режим перевірки
         formatter.setLenient(false);
 
         try {
