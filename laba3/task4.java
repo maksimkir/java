@@ -10,7 +10,7 @@ public class task4 {
 
     public static void main(String[] args) {
         Integer[] nums = {1, 5, 3};
-        String[] words = {"Apple", "Zebra", "Mango"};
+        String[] words = {"Dog", "Zebra", "Cat"};
         System.out.println("Max num: " + findMax(nums));
         System.out.println("Max word: " + findMax(words));
     }
