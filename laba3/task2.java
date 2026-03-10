@@ -17,7 +17,7 @@ public class task2 {
     public static void main(String[] args) {
 
         List<String> data = Arrays.asList(
-                "apple", "banana", "apple",
+         "apple", "banana", "apple",
                 "orange", "banana", "apple"
         );
 

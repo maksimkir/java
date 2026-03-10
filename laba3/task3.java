@@ -9,7 +9,7 @@ public class task3<T> {
         intBox.put(123);
         
         task3<String> strBox = new task3<>();
-        strBox.put("Привіт, Generics!");
+        strBox.put("Привiт!");
         
         System.out.println("Box 1: " + intBox.get());
         System.out.println("Box 2: " + strBox.get());
