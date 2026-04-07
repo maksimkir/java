@@ -19,9 +19,9 @@ public class task6 {
 
     public static List<String> getUniqueFriends(List<Person> people) {
         return people.stream()
-                .flatMap(p -> p.friends.stream())
-                .map(f -> f.name.toUpperCase())
-                .distinct()
+                .flatMap(p -> p.friends.stream())//1 pot
+                .map(f -> f.name.toUpperCase())//up reg
+                .distinct()//delete
                 .collect(Collectors.toList());
     }
 }

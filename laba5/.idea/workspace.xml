@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2137c1b-60b6-49ad-9e5f-ad15b57ed829" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task1/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task1/StudentRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task2/UniqueStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task3/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task4/MaxFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task5/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task6/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task6/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task6/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task6/ShapeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task7/ListUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task8/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task8/AnimalShelter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task8/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task8/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-3 Vanya/task8/Labrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4/task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laba4/task6.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3BfGaR8eyft4DF1JwgEtz0xJa1k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2137c1b-60b6-49ad-9e5f-ad15b57ed829" name="Changes" comment="" />
+      <created>1774872775216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774872775216</updated>
+      <workItem from="1774872777428" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
