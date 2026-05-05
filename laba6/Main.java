@@ -36,7 +36,7 @@ class Theater {
 
     public void bookTicket(String userName) {
         try {
-            // 14. Semaphore
+            // 14. Semaphore(кор пот)
             ticketOfficeLimits.acquire();
             // 10. 
             lock.lockInterruptibly(); 
@@ -52,7 +52,7 @@ class Theater {
 
                         // 7, 8. 
                         availableSeats--;
-                        bookingCounter.incrementAndGet(); // 6. Atomic
+                        bookingCounter.incrementAndGet(); // 6. 
                         System.out.println(userName + " BOOKED! Left: " + availableSeats);
                     } finally {
                         lock.unlock();
@@ -63,14 +63,14 @@ class Theater {
                 ticketOfficeLimits.release();
             }
         } catch (InterruptedException e) {
-            // 2. Примусова зупинка[cite: 1]
+            // 2. Примусова зупинка
             Thread.currentThread().interrupt();
         }
     }
 
     private final Object monitor = new Object();
     public void cancelBooking() {
-        // 16. wait(), notify(), notifyAll()
+        // 16.
         synchronized (monitor) {
             lock.lock();
             try {
